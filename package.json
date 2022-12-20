@@ -2,6 +2,7 @@
   "name": "bulldozerov-pack",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://h1lar1ous.github.io/bulldozerov-pack",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
@@ -18,6 +19,8 @@
     "yarn": "^1.22.19"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -42,6 +45,7 @@
   },
   "packageManager": "yarn@3.2.4",
   "devDependencies": {
-    "eslint-config-react-app": "^7.0.1"
+    "eslint-config-react-app": "^7.0.1",
+    "gh-pages": "^4.0.0"
   }
 }
