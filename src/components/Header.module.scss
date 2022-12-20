@@ -1,0 +1,57 @@
+.container {
+    width: 100%;
+    height: 152.73px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(7.5px);
+
+    .content {
+        width: 67.8125%;
+        height: 30px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+
+        .logo {
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 25px;
+            line-height: 30px;
+            color: #FFFFFF;
+        }
+
+        .buttons {
+            width: 37.9%;
+            height: 30px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+
+            .button {
+                font-family: 'Montserrat';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 14.0218px;
+                line-height: 17px;
+                color: #FFFFFF;
+                cursor: pointer;
+            }
+
+            .active {
+                font-family: 'Montserrat';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 14.0218px;
+                line-height: 17px;
+                color: #EAA412;
+                cursor: pointer;
+            }
+        }
+    }
+}

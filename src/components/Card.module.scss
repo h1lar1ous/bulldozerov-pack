@@ -1,0 +1,28 @@
+.container {
+    width: 381px;
+    height: 458px;
+    display: flex;
+    flex-direction: column;
+    transition-duration: 0.5s;
+
+    &:hover img {
+        transform: scale(1.035);
+        transition-duration: 0.5s;
+    }
+
+    img {
+        width: 380px;
+        height: 380px;
+        border-radius: 15px;
+        transition-duration: 0.5s;
+    }
+
+    p {
+        font-family: 'Montserrat';
+        font-weight: 500;
+        font-size: 22.7889px;
+        line-height: 28px;
+        color: #FFFFFF;
+        margin-top: 45px;
+    }
+}
