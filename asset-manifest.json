@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/bulldozerov-pack/static/css/main.5f187a5c.css",
+    "main.js": "/bulldozerov-pack/static/js/main.050f73c4.js",
+    "static/media/background.png": "/bulldozerov-pack/static/media/background.abc487e477b11f3051fd.png",
+    "index.html": "/bulldozerov-pack/index.html",
+    "main.5f187a5c.css.map": "/bulldozerov-pack/static/css/main.5f187a5c.css.map",
+    "main.050f73c4.js.map": "/bulldozerov-pack/static/js/main.050f73c4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5f187a5c.css",
+    "static/js/main.050f73c4.js"
+  ]
+}
